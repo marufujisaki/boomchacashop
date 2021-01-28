@@ -1,0 +1,141 @@
+:root {
+  /* CREATED BY DESIGN */
+  --light-blue: #89cfe5;
+  --retro-violet: #ff00ff;
+  --light-blue-title: #99daee;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER AND NAV */
+
+header {
+  width: 100%;
+  font-family: "Francois One", sans-serif;
+  background-color: #000;
+  letter-spacing: 2px;
+}
+
+header .estilo {
+  background-color: #090909;
+  color: #efefef;
+  text-align: center;
+  padding: 0.2rem 0;
+}
+
+header .logo {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+  justify-content: center;
+}
+
+nav {
+  background-color: #090909;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #efefef;
+  font-size: 1.1rem;
+  margin: 0 1rem;
+}
+
+nav .sale {
+  color: #ec2b2b;
+}
+
+nav .cart {
+  margin-left: auto;
+}
+
+/* MAIN CONTENT */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 102% auto;
+  background-position-y: -10px;
+  background-position-x: center;
+  padding-bottom: 2rem;
+}
+
+.main .camera {
+  display: none;
+}
+
+.main .title {
+  margin-top: 9.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main .title .big-title {
+  position: relative;
+  width: 325px;
+  margin: auto;
+}
+
+.main .title .big-title .box {
+  position: absolute;
+}
+
+.box-purple {
+  background-color: transparent;
+  border: 5px solid var(--retro-violet);
+  width: 305px;
+  height: 83%;
+  top: 0;
+  right: 0;
+}
+
+.box-blue {
+  background-color: #73dbf0;
+  width: 310px;
+  height: 89%;
+  left: 0;
+  bottom: 0;
+}
+
+.big-title h1 {
+  padding: 1.9rem 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2.5rem;
+  line-height: 38px;
+  text-shadow: rgba(209, 30, 30, 0.3) 2px 2px;
+  margin: 1.7rem 0;
+}
+
+.big-title h1 span.harajuku {
+  letter-spacing: 2px;
+}
+
+.big-title h1 span.style {
+  letter-spacing: 30px;
+}
+
+.main .title .button {
+  display: flex;
+  justify-content: center;
+}
+
+.main .title .button .start-button {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 3px solid #000;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  padding: 0.5rem 2.9rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
+}
